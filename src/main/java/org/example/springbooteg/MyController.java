@@ -8,6 +8,7 @@ public class MyController {
 
         @GetMapping("/hello")
         //this is my endpoint hello
+        //@GetMapping gets all HTTP get requests
         public String helloeveryone(){
             return "hello everyone, welcome to spring boot and happy learning";
         }
