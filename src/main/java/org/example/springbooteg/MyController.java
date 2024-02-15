@@ -15,7 +15,9 @@ public class MyController {
     @GetMapping("/hai")
     //this is end point hai
     public String hai(){
+            //return a message "have a nice day"
         return "have a nice day";
+
     }
 
 }
